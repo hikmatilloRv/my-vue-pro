@@ -12,7 +12,7 @@
                 <div class="card-body">
                     <h5 class="card-title">O'tkan Kunlar</h5>
                     <p class="card-text">Otabek va uning hayoti</p>
-                    <a href="book.html" class="btn btn-primary">O'qish</a>
+                    <router-link to="/book-info" class="btn btn-primary">O'qish</router-link>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
                 <div class="card-body">
                     <h5 class="card-title">O'tkan Kunlar</h5>
                     <p class="card-text">Otabek va uning hayoti</p>
-                    <a href="book.html" class="btn btn-primary">O'qish</a>
+                    <router-link to="/book-info" class="btn btn-primary">O'qish</router-link>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
                 <div class="card-body">
                     <h5 class="card-title">O'tkan Kunlar</h5>
                     <p class="card-text">Otabek va uning hayoti</p>
-                    <a href="book.html" class="btn btn-primary">O'qish</a>
+                    <router-link to="/book-info" class="btn btn-primary">O'qish</router-link>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
                 <div class="card-body">
                     <h5 class="card-title">O'tkan Kunlar</h5>
                     <p class="card-text">Otabek va uning hayoti</p>
-                    <a href="#" class="btn btn-primary">O'qish</a>
+                    <router-link to="/book-info" class="btn btn-primary">O'qish</router-link>
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
                 <div class="card-body">
                     <h5 class="card-title">O'tkan Kunlar</h5>
                     <p class="card-text">Otabek va uning hayoti</p>
-                    <a href="#" class="btn btn-primary">O'qish</a>
+                    <router-link to="/book-info" class="btn btn-primary">O'qish</router-link>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
                 <div class="card-body">
                     <h5 class="card-title">O'tkan Kunlar</h5>
                     <p class="card-text">Otabek va uning hayoti</p>
-                    <a href="#" class="btn btn-primary">O'qish</a>
+                    <router-link to="/book-info" class="btn btn-primary">O'qish</router-link>
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
                 <div class="card-body">
                     <h5 class="card-title">O'tkan Kunlar</h5>
                     <p class="card-text">Otabek va uning hayoti</p>
-                    <a href="#" class="btn btn-primary">O'qish</a>
+                    <router-link to="/book-info" class="btn btn-primary">O'qish</router-link>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
                 <div class="card-body">
                     <h5 class="card-title">O'tkan Kunlar</h5>
                     <p class="card-text">Otabek va uning hayoti</p>
-                    <a href="#" class="btn btn-primary">O'qish</a>
+                    <router-link to="/book-info" class="btn btn-primary">O'qish</router-link>
                 </div>
             </div>
         </div>
