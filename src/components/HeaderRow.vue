@@ -1,5 +1,12 @@
 <script setup>
+import {useRouter} from "vue-router";
 
+const router = useRouter()
+
+function logOut() {
+    localStorage.removeItem('token')
+    router.push('/login')
+}
 </script>
 
 <template>
@@ -23,8 +30,30 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                       aria-expanded="false">
+                                        Kitob
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><router-link class="dropdown-item" to="/create-book">
+                                            Yaratish
+                                        </router-link></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                       aria-expanded="false">
+                                        Kategoriya
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><router-link class="dropdown-item" to="/edit-category">
+                                            Update & Delete
+                                        </router-link></li>
+                                    </ul>
+                                </li>
                                 <li class="nav-item">
-                                    <router-link to="/login" class="nav-link">Login</router-link>
+                                    <span @click="logOut()" class="nav-link cursor">Chiqish</span>
                                 </li>
                             </ul>
                         </div>
@@ -38,4 +67,8 @@
 
 <style scoped>
 
+.cursor {
+    cursor: pointer;
+    padding-top: 8px;
+}
 </style>

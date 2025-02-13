@@ -12,7 +12,7 @@ export const useFetchCategories = defineStore(
         function categoriesGet() {
             return new Promise((resolve, reject) => {
                 client.get('categories')
-                    .then(res => {
+                    .then((res) => {
                         console.log('Kategoriyalar Olindi');
 
                         state.categories = res.data['member']

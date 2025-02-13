@@ -3,15 +3,7 @@ import {useFetchCategories} from "@/stores/category/getCategories.js";
 import {computed} from "vue";
 import {useRouter} from "vue-router";
 
-const router = useRouter()
-
-if (localStorage.getItem('token') !== null) {
-    useFetchCategories().categoriesGet()
-} else {
-
-    router.push('/login')
-}
-
+useFetchCategories().categoriesGet()
 const categories = computed(() => useFetchCategories().state.categories)
 
 </script>
